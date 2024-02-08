@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(57, 53, 53);
+    font-size: 1.5rem;
+   color: white; 
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    width: 50%;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+input[type="submit"]{
+    background-color: green;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+}
